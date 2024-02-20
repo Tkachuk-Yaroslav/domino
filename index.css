@@ -46,3 +46,64 @@ header {
   display: flex;
   align-items: center;
 }
+
+/*----------------------------------------------------*/
+
+.add-section {
+  width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -86px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  /* height: 614px; */
+  background-image: url(./images/bg.png);
+}
+
+.title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 125%;
+  text-align: center;
+  width: 355px;
+  height: 80px;
+
+  margin-bottom: 60px;
+}
+
+.title-span {
+  color: #b82121;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+
+  width: 355px;
+  height: 110px;
+
+  margin-bottom: 30px;
+}
+
+.title-btn {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+  width: 229px;
+  height: 60px;
+
+  background: #b82121;
+  border-radius: 5px;
+  border-color: transparent;
+
+  font-weight: 900;
+  font-size: 14px;
+  color: #fff;
+}
+
+.tomato {
+  position: absolute;
+  bottom: -235px;
+}

@@ -2,6 +2,11 @@ header {
   height: 76px;
 }
 
+h2 {
+  font-weight: 900;
+  font-size: 28px;
+}
+
 .container {
   width: 375px;
   margin-left: auto;
@@ -114,8 +119,8 @@ header {
 }
 
 .second-title {
-  font-weight: 900;
-  font-size: 28px;
+  /* font-weight: 900;
+  font-size: 28px; */
 
   width: 302px;
   height: 38px;
@@ -151,4 +156,86 @@ header {
   border-radius: 50%;
 
   margin-bottom: 40px;
+}
+
+/*----------------------------------------------------*/
+.menu-title {
+  text-align: center;
+
+  margin-bottom: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.menu-list {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+
+  width: 375px;
+}
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 355px;
+  height: 300px;
+}
+
+.menu-item:nth-child(1) {
+  background-image: url(./images/menu1.png);
+}
+
+.menu-item:nth-child(2) {
+  background-image: url(./images/menu2.png);
+}
+
+.menu-item:nth-child(3) {
+  background-image: url(./images/menu3.png);
+}
+
+.menu-item:nth-child(4) {
+  background-image: url(./images/menu4.png);
+}
+
+.menu-item:nth-child(5) {
+  background-image: url(./images/menu5.png);
+}
+
+.menu-item:nth-child(6) {
+  background-image: url(./images/menu6.png);
+}
+
+.menu-item:nth-child(7) {
+  background-image: url(./images/menu7.png);
+}
+
+.menu-title {
+  font-weight: 800;
+  font-size: 24px;
+
+  margin-bottom: 20px;
+}
+
+.menu-btn {
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+
+  display: block;
+
+  width: 229px;
+  height: 60px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.65);
 }
